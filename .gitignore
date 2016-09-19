@@ -1,0 +1,5 @@
+# Composer
+/vendor
+
+# IDE project & settings files
+*.sublime*

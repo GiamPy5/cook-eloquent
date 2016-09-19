@@ -1,0 +1,22 @@
+{
+    "name": "giampaolo/cook-eloquent",
+    "description": "Cook for Eloquent is an helper library that allows you to cook (and store) complex and elaborated queries in just a minute.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giampaolo Falqui",
+            "email": "giampaolofalqui@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "illuminate/database": "^5.3",
+        "illuminate/support": "^5.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^5.5"
+    }
+}
