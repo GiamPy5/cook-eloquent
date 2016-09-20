@@ -44,7 +44,7 @@ abstract class Receipt
 
     final protected function grt($tag, $default = null)
     {
-        return $this->getReplacementTag($tag);
+        return $this->getReplacementTag($tag, $default);
     }
 
     final public function __call($method, $args)
