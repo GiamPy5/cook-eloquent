@@ -17,6 +17,17 @@
     },
     "require-dev": {
         "orchestra/testbench": "~3.0",
-        "phpunit/phpunit": "^5.5"
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Giampaolo\\CookEloquent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Giampaolo\\CookEloquent\\Tests\\": "tests/"
+        }
     }
 }
