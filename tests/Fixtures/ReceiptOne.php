@@ -8,7 +8,7 @@ class ReceiptOne extends Receipt
 {
     protected $tags = [];
 
-    public function prepare($replacementTags = [])
+    public function prepare()
     {
         $this->where(
             'a',
